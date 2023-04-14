@@ -75,7 +75,7 @@ In this example, we first create a new instance of the GPT class using our API k
 
 ## Projects using AskGpt
 
-- [Ask-GPT-CLI](https://github.com/Nuzair46/Ask-GPT-CLI)
+- [Ask-GPT-CLI](https://github.com/Nuzair46/ask_gpt_cli)
 
 ### Remarks
 
