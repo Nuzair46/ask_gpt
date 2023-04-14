@@ -14,6 +14,7 @@ Gem::Specification.new do |spec|
   spec.license = 'MIT'
   spec.metadata['homepage_uri'] = spec.homepage
   spec.metadata['source_code_uri'] = 'https://github.com/Nuzair46/ask_gpt'
+  spec.required_ruby_version = '>= 3.1'
 
   spec.files = Dir.chdir(__dir__) do
     `git ls-files -z`.split("\x0").reject do |f|
