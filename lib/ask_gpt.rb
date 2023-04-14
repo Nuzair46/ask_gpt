@@ -3,7 +3,7 @@
 require_relative 'ask_gpt/version'
 require 'ruby/openai'
 
-module Ask
+module AskGpt
   class GPT
     attr_accessor :messages, :history, :model, :temperature, :unable_to_get_answer_text, :api_key
 
