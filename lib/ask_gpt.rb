@@ -3,8 +3,8 @@
 require_relative 'ask_gpt/version'
 require 'ruby/openai'
 
-module AskGpt
-  class AskGPT
+module Ask
+  class GPT
     attr_accessor :messages, :history, :model, :temperature, :unable_to_get_answer_text, :api_key
 
     def initialize(api_key, model: 'gpt-3.5-turbo', temperature: 0.7, unable_to_get_answer_text: nil)
