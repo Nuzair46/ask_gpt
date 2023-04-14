@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    ask_gpt (1.1.1)
+    ask_gpt (1.2)
       ruby-openai
 
 GEM
